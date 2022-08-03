@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: 'https://hu2.io/',
+        destination: process.env.AFFLIATE_URL,
         permanent: true,
       },
     ]

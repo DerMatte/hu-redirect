@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HU Redirect
+
+This project was created to help you guys out with using a custom domain with your affiliate link. It's a simple 4-step process, takes about 10 min and is completely free.
+
+<br  />
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDerMatte%2Fhu-redirect&env=AFFLIATE_URL&envDescription=Paste%20in%20your%20affiliate%20Link%20&envLink=https%3A%2F%2Fdiscord.com%2Fchannels%2F978750033400856586%2F978925835283222558)
 
 ## Getting Started
 
-First, run the development server:
+1.  [Create](https://github.com/signup) a GitHub Account if you don't already have one
 
-```bash
-npm run dev
-# or
-yarn dev
+2.  Click the button above and login with GitHub
+
+<p  align="center">
+<img  src="docs/continueGithub.png"  height="256"  alt="Continue with Github">
+</p>
+
+
+3. Give your Repository a name and hit create
+
+<p  align="center">
+
+<img  src="docs/createRepo.png"  height="256"  alt="Create your Repository">
+
+</p>
+
+4. Paste in your affiliate Link and click Deploy
+
+## Add your domain to Vercel
+
+5. Last step is to link your domain to Vercel. If you don't already have a domain, you can [buy one directly on Vercel](https://vercel.com/domains). Now head over to your project dashboard and go to settings. Type in your domain, click add, and you'll see what configuration you have to change at your domain provider (Where you bought your domain).
+
+<p  align="center">
+
+<img  src="docs/addDomain.png"  height="256">
+
+</p>
+
+Usually you have to add the following DNS Records:
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Type    Name    Value
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+A       @       76.76.21.21
+CNAME   www     cname.vercel-dns.com
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+6. You're done!
 
-## Learn More
+<br />
 
-To learn more about Next.js, take a look at the following resources:
+## FAQ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you need help, have a look [at this Tutorial](https://vercel.com/docs/concepts/projects/custom-domains), which should cover all your questions regarding custom domains on Vercel. If not, feel free to ask me in the chat.
