@@ -1,6 +1,6 @@
 # HU Redirect
 
-This project was created to help you guys out with using a custom domain with your affiliate link. It's a simple 4-step process, takes about 10 min and is completely free.
+This project was created to help you guys out with using a custom domain together with your affiliate link. It's a simple 6-step process, takes about 10 min and is completely free.
 
 <br  />
 
@@ -26,15 +26,15 @@ This project was created to help you guys out with using a custom domain with yo
 </p>
 
 4. Paste in your affiliate Link and click Deploy
-
+<p  align="center">
+    <img  src="docs/addLink.png"  height="256" alt="add your affiliate link">
+</p>
 ## Add your domain to Vercel
 
 5. Last step is to link your domain to Vercel. If you don't already have a domain, you can [buy one directly on Vercel](https://vercel.com/domains). Now head over to your project dashboard and go to settings. Type in your domain, click add, and you'll see what configuration you have to change at your domain provider (Where you bought your domain).
 
 <p  align="center">
-
-<img  src="docs/addDomain.png"  height="256">
-
+    <img  src="docs/addDomain.png"  height="256" alt="add your domain to Vercel">
 </p>
 
 Usually you have to add the following DNS Records:
@@ -48,7 +48,7 @@ CNAME   www     cname.vercel-dns.com
 
 ```
 
-6. You're done!
+6. Congratulations! You're done!
 
 <br />
 
