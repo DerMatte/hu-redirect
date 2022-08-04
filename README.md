@@ -29,6 +29,7 @@ This project was created to help you guys out with using a custom domain togethe
 <p  align="center">
     <img  src="docs/addLink.png"  height="256" alt="add your affiliate link">
 </p>
+
 ## Add your domain to Vercel
 
 5. Last step is to link your domain to Vercel. If you don't already have a domain, you can [buy one directly on Vercel](https://vercel.com/domains). Now head over to your project dashboard and go to settings. Type in your domain, click add, and you'll see what configuration you have to change at your domain provider (Where you bought your domain).
